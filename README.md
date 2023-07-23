@@ -46,14 +46,14 @@ This project seemed to be a perfect use case for Pandas plus Jupyter Notebooks. 
 
 Adding Altair to my toolkit was key to being able to look up table data (via tooltips) based on a scatterplot of two variables.
 
-I also learned to do some very basic tweaking of a <a href="https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b" target="_blank">Mapbox scrollytelling template</a>.
+I also learned to do some very basic tweaking of a <a href="https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b" target="_blank">Mapbox scrollytelling template</a>, adding my own color scheme.
 
 And, I got some beginner's practice with Adobe Illustrator, to improve SVG graphics showing elevation changes on Broadway and Riverside.
 
 ## What I'd Like to Learn Next to Advance this Project
-Due to underestimating the data challenges, I ran out of time to build out the design aspect of the project. This is an area where I need more practice and skill development. As of this writing (7/23/23) I didn't yet implement AI2HTML responsive graphics, integrate my existing CSS with the scrollytelling CSS, or plot out the walk as a path in the scrollytelling rendering.
+The Mapbox scrollytelling template seems to rely on media queries which handles graphic scaling to some degree. But I might be able to improve this with AI2HTML responsive graphics. Also, I'd like to tailor the template to plot out the walk as a path as in [this example](http://www.formerspatial.com/scrolly-drive).
 
-Also, I'd like to spend more time reverse-engineering the Mapbox scrollytelling template AND building scrollytelling from the ground up for more flexibility.
+At some point I may run into the limitations of this template, and want to develop my skill at building scrollytelling from the ground up for more flexibility.
 
 ## Guide to the Repository
 Following is an overview of files in this repository:
