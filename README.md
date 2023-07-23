@@ -27,7 +27,7 @@ My data analysis process required the following general steps:
 * For each point in the path maps, calculated change in distance, change in height, slope, slope angle, and calories burned as a function of slope angle and change in distance
 * Plotted Broadway in Altair to identify inflection points at 139th (downward descent) and 125th (upward climb), tagging each point into segment 1, segment 2, and segment 3 accordingly (see <a href="./notebooks/03_broadway_review_path.ipynb" target="_blank">notebook 3</a>)
 * Plotted Riverside in Altair and noticed elevation errors around 155th (over Trinity Cemetery) and 136th (bridge over 12th Avenue)- (see <a href="./notebooks/04_riverside_review_path_and_correct_problems.ipynb" target="_blank">notebook 4</a>).
-* Manually created a <a href="./data/commute_riverside_bridge_136.csv" target=_blank">path over the Riverside Viaduct from 136th to 129th</a>.
+* Manually created a <a href="./data/commute_riverside_bridge_136.csv" target="_blank">path over the Riverside Viaduct from 136th to 129th</a>.
 * Reconstructed the Riverside path in sections- before the Riverside Viaduct, the Riverside Viaduct, and after the Riverside Viaduct. I simply deleted the erroneous readings around 155th because there were only 5 points.
 * Calculated summary stats (calories, distance, and effort as calories/distance) for Riverside vs. Broadway by segment
 
