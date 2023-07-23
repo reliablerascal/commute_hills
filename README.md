@@ -32,7 +32,9 @@ My data analysis process required the following general steps:
 * Calculated summary stats (calories, distance, and effort as calories/distance) for Riverside vs. Broadway by segment
 
 ## Data Quirks and Other E-Varmints Standing in My Righteous Path
-As mentioned above, erroneous altitude readings on Riverside were problematic and time-consuming to address. I considered using GeoPandas to look up street addresses, but (aside from running into problems with installation) my sense is that this wouldn't solve the problem because there are no residences or businesses on the Riverside bridges. Ultimately, manually collecting data points in Google Earth for each intersection between 136th and 129th (see picture below)  proved to be the most expedient approach.
+As mentioned above, erroneous altitude readings on Riverside were problematic and time-consuming to address. My assumption had been that altitude data would be measured/recorded, not looked up from a potentially erroneous (or improperly keyed) data source.
+
+I considered using GeoPandas to look up street addresses, but (aside from running into problems with installation) my sense is that this wouldn't solve the problem because there are no residences or businesses on the Riverside bridges. Ultimately, manually collecting data points in Google Earth for each intersection between 136th and 129th (see picture below)  proved to be the most expedient approach.
 
 <img src="./images/riverside_125_satellite.png" width=50%>
 
@@ -50,6 +52,8 @@ And, I got some beginner's practice with Adobe Illustrator, to improve SVG graph
 
 ## What I'd Like to Learn Next to Advance this Project
 Due to underestimating the data challenges, I ran out of time to build out the design aspect of the project. This is an area where I need more practice and skill development. As of this writing (7/23/23) I didn't yet implement AI2HTML responsive graphics, integrate my existing CSS with the scrollytelling CSS, or plot out the walk as a path in the scrollytelling rendering.
+
+Also, I'd like to spend more time reverse-engineering the Mapbox scrollytelling template AND building scrollytelling from the ground up for more flexibility.
 
 ## Guide to the Repository
 Following is an overview of files in this repository:
